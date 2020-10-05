@@ -1,0 +1,11 @@
+@media screen and (min-width: 1550px) {
+  .logo_sec .logo {
+    width: 12%;
+  }
+  .logo_sec .login_top {
+    width: 88%;
+  }
+  .logo_sec .login_bottom {
+    width: 88%;
+  }
+}
