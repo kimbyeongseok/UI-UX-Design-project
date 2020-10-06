@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/*=========== reset ==========*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+ol ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+.clear:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img.bg {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.wrap {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  max-width: 1582px;
+  min-width: 1260px;
+  /* background: url(../img/bg_img/Asset\ 4@4x.png); */
+}
+/*=========== sub_about style ==========*/
+/*=========== sub_about style ==========*/
+/*=========== header style ==========*/
+header {
+  width: 100%;
+  height: auto;
+}
+header .main_header {
+  width: 85%;
+  height: 80px;
+  margin: auto;
+  position: relative;
+  background: #fff;
+}
+.header_line {
+  width: 11px;
+  height: 100%;
+  position: absolute;
+  background: black;
+  top: 0;
+  left: 0;
+}
+.header_content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  border: 1px dashed black;
+  padding: 23px 30px;
+}
+.header_content .logo {
+  float: left;
+}
+.header_content .logo h1 {
+  float: left;
+  font-size: 40px;
+  font-weight: 500;
+}
+.header_content .logo h1:nth-child(2) {
+  font-style: italic;
+}
+.header_content .menu_sec {
+  float: left;
+  padding: 10px 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header_content .menu_sec a,
+.header_content .menu_sec h2 {
+  float: left;
+  font-size: 17px;
+  margin: 0 5px;
+}
+.header_content .login_bottom {
+  float: right;
+  padding: 10px 0;
+}
+.header_content .login_bottom a {
+  float: right;
+  font-size: 17px;
+  margin-left: 5px;
+}
+/*=========== section style ==========*/
+section {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 85%;
+  height: auto;
+  margin: 60px auto;
+  box-sizing: border-box;
+  border: 1px dashed black;
+  background: #fff;
+  padding: 50px 40px;
+}
+.container .content_txt {
+  width: 85%;
+  height: auto;
+  box-sizing: border-box;
+}
+.container .content_txt h1 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.container .content_txt p {
+  text-align: justify;
+  line-height: 1.3;
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+.container .content_img {
+  width: 100%;
+  height: auto;
+}
+.container .content_img img {
+  width: 120%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.container .content_txt_2 {
+  width: 100%;
+  height: auto;
+}
+.container .content_txt_2 em {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 200;
+}
+.container .content_txt_2 p {
+  line-height: 1.3;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 50px;
+  text-align: right;
+  padding-left: 30%;
+}
+.container .content_txt_2 h2 {
+  text-align: right;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+}
+/*=========== footer style ==========*/
+footer {
+  width: 85%;
+  height: 60px;
+  box-sizing: border-box;
+  margin: 0 auto 20px;
+}
+.footer_line {
+  width: 2%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 8px solid black;
+  float: left;
+}
+.footer_content {
+  width: 98%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  float: left;
+  background: url(../img/bg_img/Asset\ 2.png) no-repeat center center;
+  background-size: cover;
+  padding: 10px 20px;
+}
+.footer_content p {
+  font-size: 12px;
+  font-weight: 300;
+}

@@ -20,15 +20,17 @@ a {
   text-decoration: none;
   color: black;
 }
-body {
+.body_wrap {
+  width: 100%;
+  height: auto;
+  max-width: 1582px;
   min-width: 1260px;
-  overflow: scroll;
+  margin: auto;
 }
 img.bg {
   width: 100%;
   position: fixed;
   z-index: -1;
-  opacity: 0.3;
 }
 
 /*=========== header style ==========*/
@@ -36,10 +38,11 @@ header {
   width: 100%;
   height: auto;
   padding: 15px 0 20px;
-  position: fixed;
+  /* position: fixed; */
   /* margin-left: 50%;
   transform: translateX(-50%); */
   z-index: 20;
+  /* margin: auto; */
 }
 header .main_header {
   width: 85%;
@@ -75,8 +78,7 @@ header .main_header {
   background: linear-gradient(
     to top,
     #ffffff 0%,
-    #ffffff 40%,
-    rgba(255, 255, 255, 0)
+    /* #ffffff 40%, */ rgba(255, 255, 255, 0)
   );
 }
 .logo_sec_gradient_bottom {
@@ -89,8 +91,7 @@ header .main_header {
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
-    #ffffff 50%,
-    rgba(255, 255, 255, 0)
+    /* #ffffff 50%, */ rgba(255, 255, 255, 0)
   );
 }
 .logo_sec .logo {
@@ -152,7 +153,7 @@ header .main_header {
   width: 85%;
   height: auto;
   margin: auto;
-  padding-top: 130px;
+  /* padding-top: 130px; */
 }
 .content_1 {
   width: 100%;
@@ -268,6 +269,64 @@ header .main_header {
   font-weight: 300;
   text-align: right;
 }
+/* content_2 style */
+.content_2 {
+  height: 400px;
+}
+.content_2 .content_item .item_img div.img {
+  border: none;
+  background: url(../img/content_img/Asset\ 2@4x.png) no-repeat left center;
+  background-size: cover;
+}
+.content_2 .content_item .item_txt {
+  background: url(../img/content_img/5_Invisible_Landscapes_by_MAIO_007.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+/* content_3 style */
+.content_3 {
+  height: 550px;
+}
+.content_3 .item_img {
+  width: 25%;
+  background: url(../img/bg_img/Asset\ 3@4x.png) no-repeat center center;
+  background-size: cover;
+}
+.content_3 .item_txt {
+  width: 50%;
+  background: url(../img/content_img/340723_c8512dd95f8ea803985bc9d5304f7b7b.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+.content_3 .item_txt_2 {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.content_3 .item_txt_2 p {
+  margin-top: 270px;
+  font-size: 26px;
+}
+/* content_4 style */
+.content_4 .item_img {
+  width: 18%;
+  background: url(../img/bg_img/Asset\ 4@4x.png) no-repeat center center;
+  background-size: cover;
+}
+.content_4 .item_img p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  position: absolute;
+  padding-right: 10px;
+
+  bottom: 0;
+}
+.content_4 .item_txt {
+  width: 82%;
+  background: url(../img/content_img/341912_4.png) no-repeat center center;
+  background-size: cover;
+}
 /*=========== footer style ==========*/
 footer {
   width: 85%;
@@ -294,5 +353,5 @@ footer {
 }
 .footer_content p {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
 }
