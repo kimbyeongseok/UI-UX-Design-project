@@ -1,0 +1,40 @@
+/*=========== sub_furnitur style ==========*/
+/*=========== sub_furnitur style ==========*/
+.container {
+  padding: 70px 40px 50px;
+}
+.container .content_txt {
+  width: 35%;
+  height: auto;
+  box-sizing: border-box;
+  padding-right: 20px;
+  float: left;
+}
+.container .content_txt .txt_name {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.container .content_txt h3 {
+  float: left;
+  padding: 4px 10px 0 0;
+}
+.container .content_txt h2 {
+  float: left;
+}
+.container .content_txt h1 {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin-bottom: 0;
+  font-size: 43px;
+}
+.container .content_gif {
+  width: 60%;
+  height: 400px;
+  box-sizing: border-box;
+  background: url(../img/content_img/DROIDS_02F.gif) no-repeat center center;
+  background-size: cover;
+  float: right;
+}
