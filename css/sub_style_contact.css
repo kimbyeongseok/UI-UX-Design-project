@@ -1,0 +1,50 @@
+/*=========== sub_contact style ==========*/
+/*=========== sub_contact style ==========*/
+body {
+  background: url(../img/content_img/338751_ad74b00b94b0d35780fa7a737d045b6d.gif)
+    no-repeat center center;
+  background-size: cover;
+}
+.wrap {
+  background: none;
+}
+/*=========== header style ==========*/
+.header_content .menu_sec a:nth-child(1) {
+  text-decoration: none;
+}
+.header_content .menu_sec a:nth-child(9) {
+  text-decoration: underline;
+}
+.side_panel {
+  z-index: 10;
+}
+/*=========== section style ==========*/
+.container {
+  padding: 50px 40px;
+  /* background: rgba(255, 255, 255, 0.5); */
+  background: radial-gradient(#fff, rgba(255, 255, 255, 0.3));
+  backdrop-filter: blur(6px);
+}
+.container .content {
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  padding-top: 16%;
+}
+.container .content .contact_content {
+  width: 500px;
+  height: 150px;
+  box-sizing: border-box;
+  background: radial-gradient(#fff, rgba(255, 255, 255, 0));
+  border: 1px dashed #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #fff;
+  text-align: center;
+  margin: auto;
+  padding-top: 6%;
+}
+.container .content .contact_content p {
+  cursor: pointer;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}

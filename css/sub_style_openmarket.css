@@ -1,0 +1,38 @@
+/*=========== sub_openmarket style ==========*/
+/*=========== sub_openmarket style ==========*/
+body {
+  background: url(../img/bg_img/Asset\ 1@2x.png) no-repeat center center;
+  background-size: cover;
+}
+/*=========== header style ==========*/
+.header_content .menu_sec a:nth-child(1) {
+  text-decoration: none;
+}
+.header_content .menu_sec a:nth-child(7) {
+  text-decoration: underline;
+}
+/*=========== section style ==========*/
+.container {
+  padding: 50px 40px;
+}
+.container .content_txt {
+  width: 100%;
+  margin: 50px 0;
+}
+.container .content_txt h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+  text-align: center;
+}
+.container .content_txt h1:nth-child(1) {
+  margin-right: 0;
+}
+.container .content_img img {
+  width: 100%;
+  margin-left: 0;
+}
+.container .content_img iframe {
+  width: 100%;
+}
