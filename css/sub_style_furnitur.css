@@ -1,0 +1,97 @@
+/*=========== sub_furnitur style ==========*/
+/*=========== sub_furnitur style ==========*/
+body {
+  background: url(../img/bg_img/Asset\ 12@2x.png) no-repeat center center;
+  background-size: cover;
+}
+/*=========== header style ==========*/
+.header_content .menu_sec a:nth-child(1) {
+  text-decoration: none;
+}
+.header_content .menu_sec a:nth-child(3) {
+  text-decoration: underline;
+}
+
+/*=========== section style ==========*/
+.container {
+  padding: 70px 40px 70px;
+}
+.container .content_txt {
+  width: 35%;
+  height: auto;
+  box-sizing: border-box;
+  padding-right: 20px;
+  float: left;
+}
+.container .content_txt .txt_name {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.container .content_txt h3 {
+  float: left;
+  padding: 4px 10px 0 0;
+}
+.container .content_txt h2 {
+  float: left;
+}
+.container .content_txt h1 {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin-bottom: 0;
+  font-size: 43px;
+}
+.container .content_gif {
+  width: 60%;
+  height: 400px;
+  box-sizing: border-box;
+  background: url(../img/content_img/DROIDS_02F.gif) no-repeat center center;
+  background-size: cover;
+  float: right;
+}
+.container .content_subtxt {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 80px;
+  float: left;
+}
+.container .content_subtxt p {
+  float: right;
+  font-size: 12px;
+  font-weight: 200;
+}
+.container .content_img {
+  width: 102%;
+  height: auto;
+  position: relative;
+}
+.container .content_img img {
+  width: 100%;
+  margin-left: 0;
+}
+.container .content_img .item_img {
+  position: absolute;
+  bottom: 10px;
+  left: -85px;
+  width: 47%;
+  transition: all 0.3s ease-out;
+}
+.container .content_img .item_img.addToCart {
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+  width: 10%;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+}
+.container .content_img .item_img:hover {
+  width: 49%;
+  margin-left: -10px;
+}
+.container .content_img .addToCart:hover {
+  opacity: 1;
+  width: 11%;
+  cursor: pointer;
+}
