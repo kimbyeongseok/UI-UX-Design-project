@@ -9,3 +9,236 @@
     width: 88%;
   }
 }
+@media screen and (max-width: 500px) {
+  /* ===================index.html==================== */
+  .body_wrap {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    min-width: 0;
+  }
+  /*=========== header style ==========*/
+  header {
+    padding: 0;
+    position: fixed;
+  }
+  header .main_header {
+    width: 100%;
+    height: 90px;
+  }
+  .logo_line {
+    width: 3.5%;
+  }
+  .logo_sec {
+    width: 96.5%;
+  }
+  .logo_sec_gradient_top {
+    width: 100%;
+    background: linear-gradient(
+      to top,
+      #ffffff 0%,
+      #ffffff 30%,
+      rgba(255, 255, 255, 0)
+    );
+  }
+  .logo_sec_gradient_bottom {
+    width: 100%;
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #ffffff 30%,
+      rgba(255, 255, 255, 0)
+    );
+  }
+  .logo_sec .logo {
+    width: 30%;
+    margin-left: 0;
+    padding-top: 10px;
+  }
+  .logo_sec .logo h1 {
+    font-size: 43px;
+    margin-left: -4px;
+    padding-right: 2px;
+  }
+  .logo_sec .login_top {
+    width: 70%;
+  }
+  .logo_sec .login_bottom {
+    width: 70%;
+  }
+  .logo_sec .login_bottom a {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  .menu_sec {
+    width: 96.5%;
+    padding-top: 13px;
+    padding-left: 2px;
+  }
+  .menu_sec h2 {
+    padding: 0 5px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .menu_sec a {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  /*=========== section style ==========*/
+  .wrap {
+    width: 100%;
+    padding-top: 100px;
+  }
+  .content_1 {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  .content_line {
+    width: 3.5%;
+    height: 100%;
+  }
+  .content_item {
+    width: 96.5%;
+  }
+  .content_item .item_img {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+  }
+  .content_item .item_img div.img {
+    width: 100%;
+    height: 100%;
+  }
+  .content_item .item_txt {
+    width: 100%;
+    height: 50%;
+    padding-left: 0;
+  }
+  .content_item .item_txt .txt_box {
+    border-bottom: 3px solid black;
+    border-top: 0px solid black;
+  }
+  .content_item .item_txt .txt_box .main_txt {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 20px 0;
+  }
+  .content_item .item_txt .txt_box .main_txt h2 {
+    right: 10px;
+    font-size: 20px;
+  }
+  .content_item .item_txt .txt_box .main_txt h1 {
+    font-size: 65px;
+  }
+  .content_item .item_txt .txt_box .main_txt .txt_top {
+    right: 10px;
+    top: 50px;
+  }
+  .content_item .item_txt .txt_box .main_txt .txt_bottom {
+    right: 10px;
+    top: 120px;
+    padding: 0;
+  }
+  .content_item .item_txt .txt_box .sub_txt {
+    bottom: 10px;
+  }
+  .content_item .item_txt .txt_box .sub_txt p {
+    text-align: left;
+  }
+  /* content_2 style */
+  .content_2 {
+    height: 350px;
+  }
+  .content_2 .content_item .item_img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+  }
+  .content_2 .content_item .item_txt {
+    display: none;
+  }
+  /* content_3 style */
+  .content_3 {
+    height: 500px;
+  }
+  .content_3 .content_item {
+    position: relative;
+  }
+  .content_3 .item_img {
+    width: 30%;
+    height: 100%;
+  }
+  .content_3 .item_txt {
+    width: 70%;
+    height: 100%;
+  }
+  .content_3 .item_txt_2 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    float: none;
+    left: 0;
+    top: 45%;
+    z-index: 10;
+  }
+  .content_3 .item_txt_2 p {
+    margin-top: 0;
+    font-size: 26px;
+    text-shadow: 2px 2px 1px #eee;
+  }
+  /* content_4 style */
+  .content_4 .item_img {
+    width: 100%;
+    height: 20%;
+  }
+  .content_4 .item_img p {
+    bottom: 30%;
+  }
+  .content_4 .item_txt {
+    width: 100%;
+    height: 80%;
+  }
+  /*=========== footer style ==========*/
+  footer {
+    width: 100%;
+    margin: 0 auto 0px;
+  }
+  .footer_line {
+    width: 3.5%;
+    border-left: 11px solid black;
+  }
+  .footer_content {
+    width: 96.5%;
+    padding: 3px 10px;
+    overflow: hidden;
+  }
+  .footer_content p {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 425px) {
+  .logo_sec .logo h1 {
+    font-size: 36px;
+  }
+  .menu_sec {
+    padding-top: 14px;
+  }
+  .menu_sec h2 {
+    padding: 0 2px;
+    font-size: 14px;
+  }
+  .menu_sec a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 364px) {
+  .menu_sec h2 {
+    font-size: 12px;
+  }
+  .menu_sec a {
+    font-size: 12px;
+  }
+}
